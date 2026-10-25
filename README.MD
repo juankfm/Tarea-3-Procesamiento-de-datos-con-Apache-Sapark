@@ -14,7 +14,7 @@ Tiene más de 6,3 millones de registros. Por su tamaño no está incluido en el 
 
 ## Qué hace el código
 
-El archivo `batch_covid.py` realiza cuatro etapas:
+El archivo `producer_covid.py` realiza cuatro etapas:
 
 1. **Carga:** lee el archivo de datos y lo convierte en una tabla de Spark (DataFrame).
 2. **Limpieza:** elimina registros repetidos o incompletos, ajusta las edades a años y descarta valores que no tienen sentido.
